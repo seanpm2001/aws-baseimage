@@ -2,7 +2,8 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    chefdk
+    ansible
+    ansible-lint
     packer
   ];
   shellHook = ''
